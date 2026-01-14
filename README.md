@@ -1,0 +1,2 @@
+- **Assignment**: Week 1 Project: REST API Design Fundamentals (HadatHub)
+- **Course**: Advanced Python Programming (ALU)
