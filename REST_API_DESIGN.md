@@ -199,6 +199,12 @@ Events span Nairobi (KES), Kigali (RWF), Dar es Salaam (TZS), and Kampala (UGX).
 
 ## Endpoint Documentation
 
+**Base URL**: `https://api.hadathub.com/v1`
+
+All endpoints listed below are relative to this base URL. For example:
+- Full URL for listing events: `https://api.hadathub.com/v1/events`
+- Full URL for creating a ticket: `https://api.hadathub.com/v1/tickets`
+
 ### HTTP Status Codes Reference
 
 | Code | Meaning | Use Case |
@@ -742,6 +748,15 @@ All error responses follow this standard JSON structure:
 - This design assumes auth is a separate service (Auth0, Firebase, custom).
 
 ---
+## AI Tool Usage Statement
+
+Then AI assistance (Claude by Anthropic) was used for:
+- Formatting Markdown tables for consistency and readability
+- Verifying HTTP status code semantics and REST best practices
+- Checking for some completeness in CRUD operations 
+
+
+All core API design decisions, resource modeling, endpoint specifications, business logic, constraint definitions, and architectural rationale were independently developed based on the assignment requirements and my understanding of RESTful API principles and the East African event management ecosystem.
 
 ## Document Metadata
 
