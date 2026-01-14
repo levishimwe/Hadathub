@@ -751,7 +751,7 @@ All error responses follow this standard JSON structure:
 ## AI Tool Usage Statement
 
 Then AI assistance (Claude 4.5 code max by Anthropic) was used for:
--  Formatting; content reviewed and edited by hand.
+-  seeing how to format tables; content review and edited by hand.
 
 All core API design decisions, resource modeling, endpoint specifications, business logic, constraint definitions, and architectural rationale were independently developed based on the assignment requirements and my understanding of RESTful API principles and the East African event management ecosystem.
 
